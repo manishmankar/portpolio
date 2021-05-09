@@ -1,0 +1,24 @@
+.rightSideBar {
+  background-color: #0a192f;
+  width: 10%;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.address {
+  color: aqua;
+  transform: rotate(90deg) translateX(-100px);
+}
+
+.rightSideline {
+  width: 1px;
+  height: 120px;
+  background-color: aqua;
+  margin: auto;
+}

@@ -1,0 +1,41 @@
+.card {
+  width: 300px;
+  padding: 20px 30px;
+  text-align: left;
+  background-color: #112240;
+  margin: 10px;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardContain {
+  color: white;
+  padding-right: 25px;
+  margin: 15px 0px;
+}
+.cardIcon > span {
+  color: aqua;
+  font-size: 35px;
+}
+.icon > span {
+  color: white;
+  font-size: 20px;
+}
+.cardContain > h3 {
+  color: white;
+
+  font-size: 17px;
+}
+
+.cardHeader {
+  font-size: 25px;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}

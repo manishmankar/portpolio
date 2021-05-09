@@ -1,0 +1,9 @@
+.ihavebuildConatiner {
+  padding: 30px;
+  background-color: #0a192f;
+  color: #b8c3e3;
+}
+
+.ihavebuildConatiner > div > h1 {
+  color: #b8c3e3;
+}

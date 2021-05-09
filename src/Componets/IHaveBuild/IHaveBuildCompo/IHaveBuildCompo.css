@@ -1,0 +1,38 @@
+.ihavebuildCompo {
+  display: flex;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.ihavebuildleft {
+  width: 55%;
+}
+
+.ihavebuildleft > img {
+  width: 100%;
+  height: 90%;
+}
+
+.ihavebuildright {
+  text-align: right;
+  width: 460px;
+  position: absolute;
+  right: 13%;
+}
+
+.ihavebuildright > h3 {
+  color: #b8c3e3;
+}
+
+.ihavebuildright > h1 {
+  color: #b8c3e3;
+}
+.ihavebuildright > p {
+  background-color: #071e3f;
+  padding: 15px;
+}
+.technology {
+  display: flex;
+
+  justify-content: flex-end;
+}

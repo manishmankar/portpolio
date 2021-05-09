@@ -1,0 +1,69 @@
+.about {
+  padding: 36px 70px 70px;
+  text-align: left;
+  background-color: #0a192f;
+}
+.aboutContainer {
+  display: flex;
+}
+
+.aboutHediing {
+  display: flex;
+  align-items: center;
+}
+.aboutHediing > h1 {
+  color: #ccd6f6;
+  font-weight: 700;
+}
+
+.sideLine {
+  width: 200px;
+  height: 0.5px;
+  background-color: aqua;
+  margin-left: 30px;
+}
+
+.contactLeft {
+  font-size: 16px;
+  width: 470px;
+}
+.contactLeft > p {
+  color: #8892b0;
+  font-size: 15px;
+}
+.contactRight {
+  padding: 30px;
+  width: 350px;
+  margin: auto;
+  position: relative;
+}
+
+.image {
+  width: 291px;
+  height: 303px;
+  position: relative;
+  z-index: 1;
+}
+
+.image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.boader {
+  border: solid 1px aqua;
+  height: 290px;
+  position: absolute;
+  width: 275px;
+  top: 60px;
+  left: 65px;
+  border-radius: 5px;
+}
+.skill {
+  color: #8892b0;
+  display: flex;
+  justify-content: space-around;
+}
+.skill > div > li {
+  font-size: 15px;
+}

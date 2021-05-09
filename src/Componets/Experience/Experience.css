@@ -1,0 +1,7 @@
+.experience {
+}
+.CardBox {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #0a192f;
+}

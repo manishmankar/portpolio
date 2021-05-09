@@ -1,0 +1,79 @@
+.navBar {
+  background-color: #0a192f;
+  color: #ccd6f6;
+}
+
+.logo > img {
+  width: 40px;
+
+  background-color: aqua;
+}
+.navBarContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  align-items: center;
+  height: 60px;
+  position: relative;
+  z-index: 11;
+}
+
+.navItem {
+  display: flex;
+}
+.item {
+  width: 90px;
+}
+.item > button {
+  background-color: #0a192f;
+  color: #ccd6f6;
+  border-color: aqua;
+}
+.item > button:hover {
+  background-color: #0a192f;
+  color: #ccd6f6;
+}
+.item > a > span {
+  font-family: ui-serif;
+  color: aqua;
+}
+
+.item > a:hover {
+  color: aqua;
+}
+
+.item > a {
+  color: #ccd6f6;
+}
+.navForMobile {
+  display: none;
+}
+
+.sideWrapper {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navBarContainer {
+    display: none;
+  }
+  .navForMobile {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 20px;
+    align-items: center;
+    height: 50px;
+  }
+
+  .sideWrapper {
+    background-color: #0a192f;
+    color: #ccd6f6;
+    width: 100%;
+    position: absolute;
+    top: 50;
+    display: block;
+  }
+  .sideWrapperMenu {
+    width: 100%;
+  }
+}

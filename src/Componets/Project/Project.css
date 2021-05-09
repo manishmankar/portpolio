@@ -1,0 +1,57 @@
+.CardBox {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #0a192f;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.ant-collapse-item-active {
+  display: flex !important;
+  flex-direction: column-reverse !important;
+}
+
+.ant-collapse-content-box {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  background-color: #0a192f;
+  border: none !important;
+}
+.ant-collapse-header {
+  width: 150px !important;
+  text-align: center !important;
+  margin: auto !important;
+  background-color: #0a192f !important;
+}
+.ant-collapse-content {
+  border: none !important;
+  margin-bottom: 15px !important;
+}
+
+.ant-collapse-content > .ant-collapse-content-box {
+  padding: 0px !important;
+}
+
+.ant-collapse {
+  border: none !important;
+  margin-top: 15px !important;
+}
+
+.ant-collapse-item-active {
+  background-color: #0a192f !important;
+}
+
+.ant-collapse > .ant-collapse-item {
+  border: none !important;
+}
+
+.ant-collapse-arrow {
+  display: none !important;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  padding: 12px 37px !important;
+  color: aqua;
+  border: solid 1px;
+}
