@@ -22,3 +22,16 @@
   background-color: aqua;
   margin: auto;
 }
+
+@media screen and (device-width: 320px) and (device-height: 640px) {
+  .rightSideBar {
+    display: none;
+  }
+}
+
+/* -----------tablet */
+@media (max-device-width: 800px) and (orientation: portrait) {
+  .rightSideBar {
+    display: none;
+  }
+}

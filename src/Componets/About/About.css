@@ -67,3 +67,40 @@
 .skill > div > li {
   font-size: 15px;
 }
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  /* STYLES HERE */
+}
+
+@media only screen and (max-device-width: 480px) {
+  .about {
+    padding: 36px 20px 30px;
+  }
+  .aboutContainer {
+    display: block;
+  }
+  .contactLeft {
+    width: 100%;
+  }
+
+  .image {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+  }
+
+  .contactRight {
+    padding: 0px;
+    width: 100%;
+
+    position: relative;
+    margin-top: 30px;
+  }
+  .boader {
+    display: none;
+  }
+  .sideLine {
+    display: none;
+  }
+  /* STYLES HERE */
+}

@@ -20,7 +20,9 @@ export default class Navbar extends Component {
       <div className="navBar">
         <div className="navBarContainer">
           <div className="logo">
-            <img src={logo} alt="" />
+            <a href="/">
+              <img src={logo} alt="" />
+            </a>
           </div>
           <div className="navItem">
             <div className="item">

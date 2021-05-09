@@ -29,3 +29,33 @@
   color: aqua;
   margin-top: 25px;
 }
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  /* STYLES HERE */
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* STYLES HERE */
+
+  .contactContainer {
+    width: 100%;
+    margin: auto;
+  }
+
+  .contact {
+    height: 100vh;
+    padding: 60px 15px 0px;
+    background-color: #0a192f;
+  }
+
+  .contactContainer > h1 {
+    font-size: 45px;
+    margin: 0px;
+    color: #ccd6f6;
+  }
+
+  .contactContainer > p {
+    color: #7d87a4;
+    font-size: 16px;
+  }
+}

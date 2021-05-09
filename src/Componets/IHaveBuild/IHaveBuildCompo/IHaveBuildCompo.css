@@ -36,3 +36,32 @@
 
   justify-content: flex-end;
 }
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  /* STYLES HERE */
+}
+
+@media only screen and (max-device-width: 480px) {
+  .ihavebuildleft {
+    width: 100%;
+    position: relative;
+    height: 250px;
+  }
+
+  .ihavebuildright {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 5%;
+    background-color: black;
+    opacity: 0.7;
+    height: 250px;
+  }
+
+  .ihavebuildright > p {
+    background: inherit;
+    padding: 6px;
+  }
+  /* STYLES HERE */
+}

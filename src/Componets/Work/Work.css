@@ -85,3 +85,49 @@
   width: 3px;
   background-color: aqua;
 }
+
+@media screen and (device-width: 320px) and (device-height: 640px) {
+}
+
+/* -----------tablet */
+@media (max-device-width: 800px) and (orientation: portrait) {
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  /* STYLES HERE */
+}
+
+@media only screen and (max-device-width: 480px) {
+  .work {
+    padding: 15px;
+  }
+  .workHedding {
+    width: 100%;
+  }
+  .workHedding > h1 {
+    color: #ccd6f6;
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  .mainContainer {
+    display: block;
+    width: 100%;
+  }
+
+  .details {
+    width: 100%;
+    text-align: left;
+    padding-left: 0px;
+  }
+  .companyname {
+    width: 100%;
+    text-align: left;
+    line-height: revert;
+    display: flex;
+  }
+  .worksideLine {
+    display: none;
+  }
+}
+/* STYLES HERE */

@@ -3,7 +3,7 @@
   color: #ccd6f6;
 }
 
-.logo > img {
+.logo > a > img {
   width: 40px;
 
   background-color: aqua;
@@ -76,4 +76,11 @@
   .sideWrapperMenu {
     width: 100%;
   }
+}
+
+@media screen and (device-width: 320px) and (device-height: 640px) {
+}
+
+/* -----------tablet */
+@media (max-device-width: 800px) and (orientation: portrait) {
 }

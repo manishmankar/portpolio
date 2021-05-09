@@ -2,3 +2,16 @@
   width: 80%;
   margin: auto;
 }
+
+@media screen and (device-width: 320px) and (device-height: 640px) {
+  .home {
+    width: 100%;
+  }
+}
+
+/* -----------tablet */
+@media (max-device-width: 800px) and (orientation: portrait) {
+  .home {
+    width: 100%;
+  }
+}

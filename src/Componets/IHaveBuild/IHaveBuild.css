@@ -7,3 +7,25 @@
 .ihavebuildConatiner > div > h1 {
   color: #b8c3e3;
 }
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  /* STYLES HERE */
+}
+
+@media only screen and (max-device-width: 480px) {
+  .ihavebuildConatiner {
+    padding: 15px;
+  }
+  .aboutHediing > h1 {
+    font-size: 27px;
+  }
+  .ihavebuildCompo {
+    display: block;
+    width: 100%;
+    padding: 28px 0px;
+    position: relative;
+    height: 250px;
+  }
+
+  /* STYLES HERE */
+}

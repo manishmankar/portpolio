@@ -31,3 +31,16 @@
   font-size: 22px;
   color: aquamarine;
 }
+
+@media screen and (device-width: 320px) and (device-height: 640px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+/* -----------tablet */
+@media (max-device-width: 800px) and (orientation: portrait) {
+  .sidebar {
+    display: none;
+  }
+}

@@ -34,3 +34,51 @@
 .personalInfo > div > button:hover {
   background-color: #0a192f;
 }
+@media screen and (device-width: 320px) {
+}
+
+/* -----------tablet */
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .personalInfo {
+    padding: 42px 20px 0px;
+  }
+
+  .personalInfo > h2 {
+    font-size: 33px;
+  }
+  .personalInfo > p {
+    width: 100%;
+    color: #7d87a4;
+    font-size: 12px;
+  }
+  /* STYLES HERE */
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* STYLES HERE */
+  .personalInfo {
+    padding: 10px 15px 0px;
+  }
+
+  .personalInfo > h1 {
+    font-size: 37px;
+    margin: 0px;
+    color: #ccd6f6;
+    margin: 10px 0px;
+  }
+
+  .personalInfo > h2 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    font-family: revert;
+    margin: 10px 0px;
+  }
+  .personalInfo > p {
+    width: 100%;
+    color: #7d87a4;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}
