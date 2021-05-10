@@ -16,6 +16,13 @@
   transform: rotate(90deg) translateX(-100px);
 }
 
+.address > a {
+  color: aqua;
+}
+.address > a:hover {
+  color: aqua;
+}
+
 .rightSideline {
   width: 1px;
   height: 120px;
