@@ -4,27 +4,27 @@ import "./Card.css";
 
 export default class Card extends Component {
   render() {
+    console.log(this.props.data);
     return (
-      <div className="card">
+      <div key={this.props.data.id} className="card">
         <div className="cardHeader">
           <div className="cardIcon">
             <FolderOutlined />
           </div>
           <div className="icon">
-            <FormOutlined />
+            <a href={this.props.data.git} target="_blank">
+              <FormOutlined />
+            </a>
           </div>
         </div>
         <div className="cardContain">
-          <h3>Integrating Algolia Search with WordPress Multisite</h3>
-          <p>
-            Building a custom multisite compatible WordPress plugin to build
-            global search with Algolia
-          </p>
+          <h3>{this.props.data.title}</h3>
+          <p>{this.props.data.des}</p>
         </div>
         <div className="cardFooter">
-          <div>Algolia</div>
-          <div>WordPress</div>
-          <div>css</div>
+          {this.props.data.tech.map((data, index) => {
+            return <div key={index}>{data}</div>;
+          })}
         </div>
       </div>
     );

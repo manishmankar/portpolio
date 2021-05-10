@@ -94,6 +94,40 @@
 }
 
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .work {
+    padding: 15px;
+  }
+  .workHedding {
+    width: 100%;
+  }
+  .workHedding > h1 {
+    color: #ccd6f6;
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  .mainContainer {
+    display: block;
+    width: 100%;
+  }
+
+  .details {
+    width: 100%;
+    text-align: left;
+    padding-left: 0px;
+  }
+  .companyname {
+    width: 100%;
+    text-align: left;
+    line-height: revert;
+    display: flex;
+  }
+  .worksideLine {
+    display: none;
+  }
+  .comanyDetails {
+    margin-top: 20px;
+  }
   /* STYLES HERE */
 }
 
@@ -128,6 +162,15 @@
   }
   .worksideLine {
     display: none;
+  }
+  .comanyDetails {
+    margin-top: 20px;
+  }
+  .inActive {
+    padding: 0px 5px;
+  }
+  .active {
+    padding: 0px 5px;
   }
 }
 /* STYLES HERE */

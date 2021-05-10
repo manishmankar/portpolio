@@ -15,7 +15,11 @@ export default class Contact extends Component {
             say hi, I'll try my best to get back to you!
           </p>
 
-          <Button size="large">Say Hello</Button>
+          <Button size="large">
+            <a href="mailto:manishmankar07m@gmail.com" target="_blank">
+              Say Hello
+            </a>
+          </Button>
         </div>
       </div>
     );

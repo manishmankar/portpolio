@@ -56,6 +56,11 @@ export default class Navbar extends Component {
           </div>
         </div>
         <div className="navForMobile">
+          <div className="logo">
+            <a href="/">
+              <img src={logo} alt="" />
+            </a>
+          </div>
           <div onClick={this.clickHandle} className="hambargarIcon">
             {this.state.click ? <CloseOutlined /> : <MenuOutlined />}
           </div>
