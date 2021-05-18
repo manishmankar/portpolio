@@ -10,9 +10,9 @@ const liveproject = [
     id: 1,
     img: capture,
     href: "https://edcrat.com",
-    title: "Tranning Site",
+    title: "Learning app",
     details:
-      "A nicer look at your GitHub profile and repository stats with datavisualizations of your top languages and stars. Sort through yourtop repos by number of stars, forks, and size.",
+      "A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through yourtop repos by number of stars, forks, and size.",
     techology: ["CSS", "HTML", "javaScript", "React JS"],
     classname: "ihavebuildCompo",
     classname2: "ihavebuildright",
@@ -24,7 +24,7 @@ const liveproject = [
     href: "https://school-web-site.herokuapp.com",
     title: "School Info Site ",
     details:
-      "A nicer look at your GitHub profile and repository stats with datavisualizations of your top languages and stars. Sort through yourtop repos by number of stars, forks, and size.",
+      "A web app for showing School information details and we can view the school gallary and admission processes and the all course details ",
     techology: ["CSS", "HTML", "javaScript", "React JS"],
     classname: "ihavebuildCompoChange",
     classname2: "ihavebuildrightChange",
@@ -36,7 +36,7 @@ const liveproject = [
     href: "https://create-to-do.herokuapp.com/",
     title: "ToDo App",
     details:
-      "A nicer look at your GitHub profile and repository stats with datavisualizations of your top languages and stars. Sort through yourtop repos by number of stars, forks, and size.",
+      "It is simple TODO list where we can add and remove the items and mark as complited. The complited item shifited to last of the list  ",
     techology: ["CSS", "HTML", "javaScript", "React JS"],
     classname: "ihavebuildCompo",
     classname2: "ihavebuildright",

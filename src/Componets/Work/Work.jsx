@@ -33,7 +33,10 @@ const deatis = [
     detail: "Techincal Support Engineer",
     date: "July 2019 to June 2020",
     info: [
-      "Write modern, performant, maintainable code for a diverse array of client and internal projects",
+      "Provide technical support; answering support queries either onsite or via phone or email",
+      "Maintain a log of any software or hardware problems detected",
+      "Respond to enquiries from clients and help them resolve any hardware or software problems",
+      "Support users in the use of Computer equipment by providing necessary training and advice",
     ],
   },
   {
@@ -43,9 +46,10 @@ const deatis = [
     detail: "Tranee Engineer @ Xceller",
     date: "JAN 2018 - JUNE 2018 ",
     info: [
-      "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-      "Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness",
-      "Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more",
+      "Maintain a high degree of customer service for all support queries and adhere to all service management principles",
+      "Maintained standard software configurations, including troubleshooting, loading and configuring software images, supported applications and drivers",
+
+      "To manage the Applications of computer system",
     ],
   },
 ];

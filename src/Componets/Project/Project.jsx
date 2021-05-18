@@ -9,16 +9,14 @@ const prodata = [
   {
     id: 1,
     title: "E-Commerce",
-    des:
-      "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
+    des: "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
     tech: ["CSS", "HTML", "JavaSript"],
     git: "https://github.com/manishmankar/E-Commerce",
   },
   {
     id: 2,
     title: "DashBoard",
-    des:
-      "It show the different parament of API value and User login Dashboard ",
+    des: "It show the different parament of API value and User login Dashboard ",
     tech: ["CSS", "HTML", "JavaSript"],
     git: "https://github.com/manishmankar/Dashboard-",
   },
@@ -32,8 +30,7 @@ const prodata = [
   {
     id: 4,
     title: "Notes",
-    des:
-      "Online version of my 2019 resume made for fun. I was interested in learning React.js, so I found a simple tutorial and it spun into a weekend project.",
+    des: "Online version of my 2019 resume made for fun. I was interested in learning React.js, so I found a simple tutorial and it spun into a weekend project.",
     tech: ["CSS", "HTML", "JavaSript"],
     git: "https://github.com/manishmankar/Notes",
   },
@@ -47,8 +44,7 @@ const prodata = [
   {
     id: 6,
     title: "NOOK",
-    des:
-      "Simple website to display some of my favorite CSS Style combined with some fun lorem ipsum variations found on the web.",
+    des: "Simple website to display some of my favorite CSS Style combined with some fun lorem ipsum variations found on the web.",
     tech: ["CSS", "HTML"],
     git: "https://github.com/manishmankar/first-business-website",
   },
@@ -58,23 +54,21 @@ const exprodata = [
   {
     id: 1,
     title: "Quiz-App",
-    des:
-      "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
+    des: "Building a javaSript Quiz-App in that objective questions, start and end button and show random quetions   ",
     tech: ["CSS", "HTML", "JavaSript"],
     git: "https://github.com/manishmankar/Quiz-App",
   },
   {
     id: 2,
     title: "Drag-Drop",
-    des:
-      "It show the different parament of API value and User login Dashboard ",
+    des: "A single page app where we can app the drag and drap the different files and post to the API ",
     tech: ["CSS", "HTML", "JavaSript"],
     git: "https://github.com/manishmankar/Drag-Drop",
   },
   {
     id: 3,
     title: "SchoolWebSite",
-    des: "A single page web app , built with Express JS ,MongDB and  Node Js",
+    des: "A single page web app , built with React JS where i used react-router, material UI and antDesign ",
     tech: ["CSS", "HTML", "JavaSript"],
     git: "https://github.com/manishmankar/SchoolWebSite",
   },
